@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+			integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="../css/login.css" />
+
+		<title>Georganics – Логин</title>
+	</head>
+
+	<body>
+		<nav class="container">
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link" href="../index.html">Главная</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./catalog.html">Каталог</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./ztl.html">Схема ZTL</a>
+				</li>
+			</ul>
+			<a href="../index.html">
+				<svg class="logo">
+					<use href="../icons/icons.svg#icon-logo"></use>
+				</svg>
+			</a>
+			<ul class="nav">
+				<li class="nav-item">
+					<a class="nav-link" href="">Поиск</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="">Корзина</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./login.html">Аккаунт</a>
+				</li>
+			</ul>
+		</nav>
+
+		<section class="section-auth">
+			<div class="section-title">
+				<p class="text">Регистрация или авторизация</p>
+				<h1 class="title">Личный кабинет</h1>
+			</div>
+			<form class="form">
+				<h2 class="subtitle">Вход</h2>
+				<ul class="input">
+					<div class="input-list">
+						<li class="input-item">
+							<label class="text-tiny-form" for="email">
+								Электронная почта или телефон
+							</label>
+							<input
+								type="email"
+								name="email"
+								id="email"
+								placeholder="Ваша почта"
+							/>
+						</li>
+						<li class="input-item">
+							<label class="text-tiny-form" for="password">Пароль</label>
+							<div class="view">
+								<input
+									type="password"
+									name="password"
+									id="password"
+									placeholder="Пароль"
+								/>
+								<button class="icon-view">
+									<svg class="icon">
+										<use href="../icons/icons.svg#icon-view"></use>
+									</svg>
+								</button>
+							</div>
+						</li>
+					</div>
+					<div class="input-item">
+						<div class="form-remember">
+							<input
+								class="checkbox"
+								type="checkbox"
+								name="checkbox"
+								id="checkbox"
+							/>
+							<label class="text" for="checkbox">Запомнить меня</label>
+						</div>
+						<a class="text text-support" href="">Забыли пароль?</a>
+					</div>
+					<div class="form-confirm">
+						<a class="button button--dark" href="">
+							Войти
+							<svg class="icon">
+								<use href="../icons/icons.svg#icon-arrow-right"></use>
+							</svg>
+						</a>
+						<button class="text text-support" type="submit">
+							Зарегистрироваться
+						</button>
+					</div>
+				</ul>
+			</form>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="left">
+					<a href="../index.html">
+						<svg class="logo">
+							<use href="../icons/icons.svg#icon-logo"></use>
+						</svg>
+					</a>
+				</div>
+				<ul class="inn-list">
+					<li>
+						<a class="text text-tiny" href="../index.html">
+							&copy;2022, Georganics
+						</a>
+					</li>
+					<li>
+						<a class="text text-tiny" href="">Политика конфиденциальности</a>
+					</li>
+					<li>
+						<a class="text text-tiny" href="">Условия пользования</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>
