@@ -291,7 +291,7 @@ nav {
 .hero {
 	height: 900px;
 
-	background-image: url(/images/section/hero.png);
+	background-image: url(../images/section/hero.png);
 	background-repeat: no-repeat;
 	background-position: right;
 	background-color: var(--primary);
@@ -502,7 +502,7 @@ section.section-preview {
 	padding: 160px 0px;
 	height: 650px;
 
-	background-image: url(/images/section/ztl-image.png);
+	background-image: url(../images/section/ztl-image.png);
 	background-position: right;
 	background-repeat: no-repeat;
 	background-color: var(--primary);

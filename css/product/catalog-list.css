@@ -145,6 +145,10 @@ button {
 	line-height: 140%;
 }
 
+.text-tiny {
+	color: var(--gray);
+}
+
 .section-title {
 	display: flex;
 	flex-direction: column;
